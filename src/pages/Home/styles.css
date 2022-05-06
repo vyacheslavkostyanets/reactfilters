@@ -1,0 +1,25 @@
+.home {
+display: flex;
+flex-direction: column;
+height: 100vh;
+font-weight: 400;
+}
+
+.home_panelList-wrap, .home_panel-wrap, .home_list-wrap {
+	overflow-y: scroll;
+}
+
+.home_panelList-wrap {
+display: flex;
+flex: 1;
+}
+
+.home_panel-wrap {
+	background: red;
+	flex-basis: 280px;
+}
+
+.home_list-wrap {
+	background-color: blue;
+	flex: 1;
+}
